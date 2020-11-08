@@ -41,15 +41,6 @@ optional arguments:
                         The path of finetuned BERT checkpoint
 ``` 
 
-* Example of how to train the model:
-``` python
-
-``` 
-
-* Example of how to train the model with the defualt paths:
-``` python
-python main.py
-``` 
 
 
 
