@@ -9,7 +9,7 @@ http://noisy-text.github.io/2020/pdf/2020.d200-1.5.pdf
 ``` python
 pip install requirements.txt
 ``` 
-The are a number of arguments available for training and testing the model:
+Arguments available for providing paths to the dataset, Glove and the finetuned BERT( NOTE:  fine-tuning BERT separately and saving checkpoint is needed before running this code):
 ``` python
 
 ``` 
