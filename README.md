@@ -11,7 +11,34 @@ pip install requirements.txt
 ``` 
 Arguments available for providing paths to the dataset, Glove and the finetuned BERT( NOTE:  fine-tuning BERT separately and saving checkpoint is needed before running this code):
 ``` python
+python main.py --help
 
+usage: main.py [-h] [--traint TRAINING_PATH_TEXT]
+               [--trainl TRAINING_PATH_LABELS] [--validt VALIDATION_PATH_TEXT]
+               [--validl VALIDATION_PATH_LABELS] [--textt TESTING_PATH_TEXT]
+               [--testl TESTING_PATH_LABELS] [--glovepath GLOVE_FILE_PATH]
+               [--finetunedbert FINETUNED_BERT_PATH] 
+               
+Experiment setup - Arguments get parsed via --commands
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --traint TRAINING_PATH_TEXT
+                        The path of training data text
+  --trainl TRAINING_PATH_LABELS
+                        The path of training data labels
+  --validt VALIDATION_PATH_TEXT
+                        The path of validation data text
+  --validl VALIDATION_PATH_LABELS
+                        The path of validation data labels
+  --textt TESTING_PATH_TEXT
+                        The path of testing data text
+  --testl TESTING_PATH_LABELS
+                        The path of testing data labels
+  --glovepath GLOVE_FILE_PATH
+                        The path of Glove vectors file
+  --finetunedbert FINETUNED_BERT_PATH
+                        The path of finetuned BERT checkpoint
 ``` 
 
 * Example of how to train the model:
