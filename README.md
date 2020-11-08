@@ -19,7 +19,6 @@ usage: main.py [-h] [--traint TRAINING_PATH_TEXT]
                [--testl TESTING_PATH_LABELS] [--glovepath GLOVE_FILE_PATH]
                [--finetunedbert FINETUNED_BERT_PATH] 
                
-Experiment setup - Arguments get parsed via --commands
 
 optional arguments:
   -h, --help            show this help message and exit
