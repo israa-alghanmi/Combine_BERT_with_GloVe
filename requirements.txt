@@ -1,0 +1,6 @@
+pip install gensim
+pip install Keras
+pip install emoji
+pip install tokenizers
+pip install transformers
+pip install -U keras-tuner
