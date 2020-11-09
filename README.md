@@ -1,5 +1,5 @@
 # BERT+Glove
-This repo contains an implementation example of the model proposed in the paper:  Combining BERT with Static Word Embedding for Categorizing Social Media 
+This repo contains an implementation example of the model proposed in our paper:  Combining BERT with Static Word Embedding for Categorizing Social Media 
 
 http://noisy-text.github.io/2020/pdf/2020.d200-1.5.pdf
 
@@ -9,7 +9,9 @@ Installing the required packages
 ``` python
 pip install requirements.txt
 ``` 
-Arguments available for providing paths to the dataset, Glove and the finetuned BERT( NOTE:  fine-tuning BERT separately and saving checkpoint is needed before running this code):
+
+Optional Arguments:
+Arguments available for providing paths to the dataset, Glove and the fine-tuned BERT ( NOTE: fine-tuning BERT separately and saving a checkpoint are needed before running this code):
 ``` python
 python main.py --help
 
