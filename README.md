@@ -11,7 +11,7 @@ pip install requirements.txt
 ``` 
 
 Optional Arguments:
-Arguments available for providing paths to the dataset, Glove and the fine-tuned BERT ( NOTE: fine-tuning BERT separately and saving a checkpoint are needed before running this code):
+Arguments available for providing paths to a dataset, Glove and a fine-tuned BERT ( NOTE: fine-tuning BERT separately and saving a checkpoint are needed before running this code):
 ``` python
 python main.py --help
 
