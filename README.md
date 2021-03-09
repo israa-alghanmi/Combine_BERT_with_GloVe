@@ -43,7 +43,7 @@ optional arguments:
 
 If you find this useful, please cite the paper:
 
-``` python
+
 @inproceedings{alghanmi2020combining,
   title={Combining BERT with Static Word Embeddings for Categorizing Social Media},
   author={Alghanmi, Israa and Anke, Luis Espinosa and Schockaert, Steven},
@@ -51,4 +51,4 @@ If you find this useful, please cite the paper:
   pages={28--33},
   year={2020}
 }
-``` 
+
