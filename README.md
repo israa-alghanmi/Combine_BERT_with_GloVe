@@ -1,6 +1,5 @@
 # BERT + GloVe
-This repo contains an implementation example of the model proposed in our paper:  Combining BERT with Static Word Embedding for Categorizing Social Media 
-
+This repo contains an implementation example of the model proposed in our paper:  Combining BERT with Static Word Embeddings for Categorizing Social Media 
 http://noisy-text.github.io/2020/pdf/2020.d200-1.5.pdf
 
 
@@ -42,7 +41,14 @@ optional arguments:
                         The path of finetuned BERT checkpoint
 ``` 
 
+If you find this useful, please cite the paper:
 
-
-
-
+``` python
+@inproceedings{alghanmi2020combining,
+  title={Combining BERT with Static Word Embeddings for Categorizing Social Media},
+  author={Alghanmi, Israa and Anke, Luis Espinosa and Schockaert, Steven},
+  booktitle={Proceedings of the Sixth Workshop on Noisy User-generated Text (W-NUT 2020)},
+  pages={28--33},
+  year={2020}
+}
+``` 
