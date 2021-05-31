@@ -5,13 +5,13 @@ http://noisy-text.github.io/2020/pdf/2020.d200-1.5.pdf
 
 # Usage:
 Installing the required packages
-``` python
+``` 
 pip install requirements.txt
 ``` 
 
 Optional Arguments:
 Arguments available for providing paths to the dataset, GloVe and the fine-tuned BERT ( NOTE: fine-tuning BERT separately and saving a checkpoint are needed before running this code):
-``` python
+``` 
 python main.py --help
 
 usage: main.py [-h] [--traint TRAINING_PATH_TEXT]
